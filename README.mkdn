@@ -7,12 +7,14 @@ Getting Started
 Open Your Favorite Terminal
 
 Create AOSPxXx Directory:
+
     mkdir AOSPxXx
 
 Change to Working Directory:
+
     cd AOSPxXx
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the CM10 and AOSPxXx trees, use a command like this:
 
     repo init -u git://github.com/flappjaxxx/android.git -b jellybean
 
@@ -30,8 +32,11 @@ After you are done syncing your repo:
 chmod a+x autobuild/build.sh autobuild/build2.sh
 
 Let's build:
-autobuild/build.sh (This will build utilizing ccache with 40GB cache so make sure you have plenty of space available)
+
+    autobuild/build.sh
+(This will build utilizing ccache with 40GB cache so make sure you have plenty of space available)
 
 Or
 
-autobuild/build2.sh (This will build without utilizing ccache)
+    autobuild/build2.sh
+(This will build without utilizing ccache)
