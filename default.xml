@@ -339,5 +339,6 @@
   <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="fj" revision="jellybean" />
   <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" remote="fj" revision="jellybean" />
   <project path="packages/apps/FJTools-Note" name="FJTools-Note" remote="fj" revision="jellybean" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="fj" revision="jellybean" />
   <project path="autobuild" name="cm10_autobuild" remote="fj" revision="jellybean" />
 </manifest>
