@@ -29,7 +29,8 @@ Build Instructions
 --------
 
 After you are done syncing your repo:
-chmod a+x autobuild/build.sh autobuild/build2.sh
+
+    chmod a+x autobuild/build.sh autobuild/build2.sh
 
 Let's build:
 
