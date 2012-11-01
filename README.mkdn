@@ -16,7 +16,7 @@ Change to Working Directory:
 
 To initialize your local repository using the CM10 and AOSPxXx trees, use a command like this:
 
-    repo init -u git://github.com/flappjaxxx/android.git -b jellybean
+    repo init -u git://github.com/flappjaxxx/android.git -b jellybean-nexus
 
 Then to sync up:
 
