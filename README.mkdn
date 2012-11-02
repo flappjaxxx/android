@@ -30,14 +30,14 @@ Build Instructions
 
 After you are done syncing your repo:
 
-    chmod a+x autobuild/build.sh autobuild/build2.sh
+    chmod a+x autobuild/quincyatt.sh autobuild/quincyatt2.sh
 
 Let's build:
 
-    autobuild/build.sh
+    autobuild/quincyatt.sh
 (This will build utilizing ccache with 40GB cache so make sure you have plenty of space available)
 
 Or
 
-    autobuild/build2.sh
+    autobuild/quincyatt2.sh
 (This will build without utilizing ccache)
