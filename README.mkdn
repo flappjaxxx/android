@@ -25,12 +25,32 @@ Then to sync up:
 Grab some popcorn and a soda pop, this is going to take a while
 
 
-Build Instructions
+Build Instructions for Samsung Galaxy Nexus GSM Maguro
 --------
 
 After you are done syncing your repo:
 
-    chmod a+x autobuild/quincyatt.sh autobuild/quincyatt2.sh
+    chmod a+x autobuild/maguro.sh autobuild/maguro2.sh autobuild/repackagemaguro.sh
+
+Let's build:
+
+    autobuild/maguro.sh
+(This will build utilizing ccache with 40GB cache so make sure you have plenty of space available)
+
+Or
+
+    autobuild/maguro2.sh
+(This will build without utilizing ccache)
+
+--------
+
+
+Build Instructions for Samsung SGH-i717 AT&T Note
+--------
+
+After you are done syncing your repo:
+
+    chmod a+x autobuild/quincyatt.sh autobuild/quincyatt2.sh autobuild/repackagequincyatt.sh
 
 Let's build:
 
