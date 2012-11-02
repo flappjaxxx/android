@@ -337,4 +337,5 @@
   <project path="packages/apps/FJTools-Note" name="FJTools-Note" remote="fj" revision="jellybean-nexus" />
   <project path="autobuild" name="autobuild" remote="fj" revision="jellybean" />
   <project path="frameworks/base" name="android_frameworks_base" remote="fj" revision="jellybean" />
+  <project path=".repo" name="jb_local_manifest" remote="fj" revision="jellybean" />
 </manifest>
