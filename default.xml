@@ -280,7 +280,7 @@
   <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" remote="fj" revision="ics" />
   <project path="packages/apps/FJTools-Note" name="FJTools-Note" remote="fj" revision="ics" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="fj" revision="ics" />
-  <project path="autobuild" name="cm10_autobuild" remote="fj" revision="ics" />
+  <project path="autobuild" name="autobuild" remote="fj" revision="ics" />
   <project path="frameworks/base" name="android_frameworks_base" remote="fj" revision="ics" />
   <project path="android" name="CyanogenMod/android" />
 </manifest>
