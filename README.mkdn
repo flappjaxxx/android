@@ -1,5 +1,4 @@
 AOSPxXx-ICS
-===========
 
 Getting Started
 ---------------
@@ -21,7 +20,6 @@ To initialize your local repository using the CM10 and AOSPxXx trees, use a comm
 Then to sync up:
 
     repo sync
-
 Grab some popcorn and a soda pop, this is going to take a while
 
 
@@ -38,6 +36,5 @@ Let's build:
 (This will build utilizing ccache with 40GB cache so make sure you have plenty of space available)
 
 Or
-
     autobuild/build2.sh
 (This will build without utilizing ccache)
