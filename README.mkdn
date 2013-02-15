@@ -6,17 +6,17 @@ Getting Started
 
 Open Your Favorite Terminal
 
-Create AOSPxXx Directory:
+Create cm10.1 Directory:
 
-    mkdir AOSPxXx
+    mkdir cm101
 
 Change to Working Directory:
 
-    cd AOSPxXx
+    cd cm101
 
-To initialize your local repository using the CM10 and AOSPxXx trees, use a command like this:
+To initialize your local repository using the CM10 and FJ trees, use a command like this:
 
-    repo init -u git://github.com/flappjaxxx/android.git -b jellybean
+    repo init -u git://github.com/flappjaxxx/android.git -b cm-10.1
 
 Then to sync up:
 
@@ -25,32 +25,12 @@ Then to sync up:
 Grab some popcorn and a soda pop, this is going to take a while
 
 
-Build Instructions for Samsung Galaxy Nexus GSM Maguro
---------
-
-After you are done syncing your repo:
-
-    chmod a+x autobuild/maguro.sh autobuild/maguro2.sh autobuild/repackagemaguro.sh
-
-Let's build:
-
-    autobuild/maguro.sh
-(This will build utilizing ccache with 40GB cache so make sure you have plenty of space available)
-
-Or
-
-    autobuild/maguro2.sh
-(This will build without utilizing ccache)
-
---------
-
-
 Build Instructions for Samsung SGH-i717 AT&T Note
 --------
 
 After you are done syncing your repo:
 
-    chmod a+x autobuild/quincyatt.sh autobuild/quincyatt2.sh autobuild/repackagequincyatt.sh
+    chmod a+x autobuild/quincyatt.sh autobuild/quincyatt2.sh
 
 Let's build:
 
