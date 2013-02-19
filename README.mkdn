@@ -3,7 +3,7 @@ CM 10.1 FJ Kang
 Getting Started
 ----------------
 	  		  	
--Open Your Favorite Terminal
+Open Your Favorite Terminal
 
 Create cm10.1 Directory:
 
