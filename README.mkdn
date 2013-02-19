@@ -1,4 +1,4 @@
-CM-10.1 Kang
+CM 10.1 FJ Kang
 ===========
 Create cm10.1 Directory:
 
