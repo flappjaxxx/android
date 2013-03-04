@@ -14,8 +14,7 @@
   <remote  name="fj"
            fetch="https://github.com/flappjaxxx" />
 
-
-  <default revision="refs/heads/cm-10.1"
+  <default revision="refs/tags/cm-10.1-M2"
            remote="github"
            sync-c="true"
            sync-j="4" />
