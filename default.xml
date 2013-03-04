@@ -377,7 +377,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-  <project path="packages/apps/FJTools-Note" name="FJTools-Note" remote="fj" revision="cm-10.1-FJ" />
-  <project path="autobuild" name="autobuild" remote="fj" revision="cm-10.1-FJ" />
-  <project path=".repo" name="jb_local_manifest" remote="fj" revision="cm-10.1-FJ" />
+  <project path="packages/apps/FJTools-Note" name="FJTools-Note" remote="fj" revision="cm-10.1" />
+  <project path="autobuild" name="autobuild" remote="fj" revision="cm-10.1" />
+  <project path=".repo" name="jb_local_manifest" remote="fj" revision="cm-10.1" />
 </manifest>
