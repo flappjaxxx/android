@@ -24,7 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="flappjaxxx/android" revision="cm11" />
+  <project path="android" name="android" remote="fj" revision="cm11" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
