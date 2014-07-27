@@ -24,6 +24,9 @@
            fetch="git://git.code.sf.net/p/"
            sync-j="4" />
 
+  <remote  name="fj"
+           fetch="git://github.com/flappjaxxx/" />
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
@@ -498,5 +501,5 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" />
+  <project path="vendor/carbon" name="android_vendor_carbon" remote="fj" revision="fjkk" />
 </manifest>
