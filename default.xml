@@ -27,7 +27,7 @@
   <remote  name="fj"
            fetch="git://github.com/flappjaxxx/" />
 
-  <remote  name="tm"
+  <remote  name="blobs"
            fetch="git://github.com/TheMuppets/" />
 
   <default revision="refs/heads/kk"
