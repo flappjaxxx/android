@@ -30,6 +30,9 @@
   <remote  name="blobs"
            fetch="git://github.com/TheMuppets/" />
 
+  <remote  name="slim"
+           fetch="git://github.com/SlimRoms/" />
+
   <default revision="refs/heads/kk"
            remote="cr"
            sync-j="4" />
