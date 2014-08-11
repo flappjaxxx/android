@@ -2,10 +2,17 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-j="4" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
