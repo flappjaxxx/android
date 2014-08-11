@@ -448,7 +448,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/carbon" name="android_vendor_aosp" remote="fj" revision="kk-aosp" />
+  <project path="vendor/aosp" name="android_vendor_carbon" remote="fj" revision="kk-aosp" />
   <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="fj" revision="kk-aosp" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="cm" revision="cm-11.0" />
   <project path="device/oppo/common" name="android_device_oppo_common" remote="cm" revision="cm-11.0" />
